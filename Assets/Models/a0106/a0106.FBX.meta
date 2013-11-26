@@ -1,0 +1,357 @@
+fileFormatVersion: 2
+guid: 39559c39d074b9d4ca5e31660eaf90ab
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: a0106s
+    100004: Bip01
+    100006: Bip01 Footsteps
+    100008: Bip01 Head
+    100010: Bip01 HeadNub
+    100012: Bip01 L Calf
+    100014: Bip01 L Clavicle
+    100016: Bip01 L Finger0
+    100018: Bip01 L Finger01
+    100020: Bip01 L Finger02
+    100022: Bip01 L Finger0Nub
+    100024: Bip01 L Finger1
+    100026: Bip01 L Finger11
+    100028: Bip01 L Finger12
+    100030: Bip01 L Finger1Nub
+    100032: Bip01 L Finger2
+    100034: Bip01 L Finger21
+    100036: Bip01 L Finger22
+    100038: Bip01 L Finger2Nub
+    100040: Bip01 L Foot
+    100042: Bip01 L Forearm
+    100044: Bip01 L Hand
+    100046: Bip01 L Thigh
+    100048: Bip01 L Toe0
+    100050: Bip01 L Toe0Nub
+    100052: Bip01 L UpperArm
+    100054: Bip01 Neck
+    100056: Bip01 Pelvis
+    100058: Bip01 Ponytail1Nub
+    100060: Bip01 Ponytail2Nub
+    100062: Bip01 R Calf
+    100064: Bip01 R Clavicle
+    100066: Bip01 R Finger0
+    100068: Bip01 R Finger01
+    100070: Bip01 R Finger02
+    100072: Bip01 R Finger0Nub
+    100074: Bip01 R Finger1
+    100076: Bip01 R Finger11
+    100078: Bip01 R Finger12
+    100080: Bip01 R Finger1Nub
+    100082: Bip01 R Finger2
+    100084: Bip01 R Finger21
+    100086: Bip01 R Finger22
+    100088: Bip01 R Finger2Nub
+    100090: Bip01 R Foot
+    100092: Bip01 R Forearm
+    100094: Bip01 R Hand
+    100096: Bip01 R Thigh
+    100098: Bip01 R Toe0
+    100100: Bip01 R Toe0Nub
+    100102: Bip01 R UpperArm
+    100104: Bip01 Spine
+    100106: Bip01 Spine1
+    100108: Bip01 Spine2
+    100110: Box01000
+    100112: CA01
+    100114: CA02
+    100116: CA03
+    100118: CA04
+    100120: CA05
+    100122: CA06
+    100124: CF01
+    100126: CF02
+    100128: CF03
+    100130: CF04
+    100132: CK01
+    100134: CK02
+    100136: CK03
+    100138: CK04
+    100140: CL01
+    100142: CL02
+    100144: CL03
+    100146: CL04
+    100148: CL05
+    100150: CL06
+    100152: CL07
+    100154: CL08
+    100156: CL09
+    100158: CL10
+    100160: CR01
+    100162: CR02
+    100164: CR03
+    100166: CR04
+    100168: CR05
+    100170: CR06
+    100172: CR07
+    100174: CR08
+    100176: CR09
+    100178: CR10
+    100180: Dummy01
+    100182: Dummy02
+    100184: Dummy03
+    100186: Dummy04
+    100188: Dummy05
+    100190: Dummy06
+    100192: Dummy07
+    100194: Dummy08
+    100196: Dummy09
+    100198: Dummy10
+    100200: Dummy11
+    100202: Dummy12
+    100204: Dummy13
+    100206: Dummy14
+    100208: Dummy15
+    100210: Dummy16
+    100212: Dummy17
+    100214: Dummy18
+    100216: Dummy19
+    100218: Dummy20
+    100220: Dummy21
+    100222: Dummy22
+    100224: Dummy23
+    100226: Dummy24
+    100228: Dummy25
+    100230: Dummy26
+    100232: Dummy28
+    100234: Dummy29
+    100236: 'Face '
+    100238: Face Brow
+    100240: Face EyeL
+    100242: Face EyeLD
+    100244: Face EyeLU
+    100246: Face EyeR
+    100248: Face EyeRD
+    100250: Face EyeRU
+    100252: Face MouseD
+    100254: Face MouseL
+    100256: Face MouseR
+    100258: Face MouseU
+    100260: HA01
+    100262: HA02
+    100264: HA03
+    100266: HA04
+    100268: HA05
+    100270: HA06
+    100272: HA07
+    100274: HA08
+    100276: HA09
+    100278: HA10
+    100280: HA11
+    100282: HA12
+    100284: HA13
+    100286: HA14
+    100288: HA15
+    100290: HA16
+    100292: WL01
+    100294: WR01
+    400000: //RootNode
+    400002: a0106s
+    400004: Bip01
+    400006: Bip01 Footsteps
+    400008: Bip01 Head
+    400010: Bip01 HeadNub
+    400012: Bip01 L Calf
+    400014: Bip01 L Clavicle
+    400016: Bip01 L Finger0
+    400018: Bip01 L Finger01
+    400020: Bip01 L Finger02
+    400022: Bip01 L Finger0Nub
+    400024: Bip01 L Finger1
+    400026: Bip01 L Finger11
+    400028: Bip01 L Finger12
+    400030: Bip01 L Finger1Nub
+    400032: Bip01 L Finger2
+    400034: Bip01 L Finger21
+    400036: Bip01 L Finger22
+    400038: Bip01 L Finger2Nub
+    400040: Bip01 L Foot
+    400042: Bip01 L Forearm
+    400044: Bip01 L Hand
+    400046: Bip01 L Thigh
+    400048: Bip01 L Toe0
+    400050: Bip01 L Toe0Nub
+    400052: Bip01 L UpperArm
+    400054: Bip01 Neck
+    400056: Bip01 Pelvis
+    400058: Bip01 Ponytail1Nub
+    400060: Bip01 Ponytail2Nub
+    400062: Bip01 R Calf
+    400064: Bip01 R Clavicle
+    400066: Bip01 R Finger0
+    400068: Bip01 R Finger01
+    400070: Bip01 R Finger02
+    400072: Bip01 R Finger0Nub
+    400074: Bip01 R Finger1
+    400076: Bip01 R Finger11
+    400078: Bip01 R Finger12
+    400080: Bip01 R Finger1Nub
+    400082: Bip01 R Finger2
+    400084: Bip01 R Finger21
+    400086: Bip01 R Finger22
+    400088: Bip01 R Finger2Nub
+    400090: Bip01 R Foot
+    400092: Bip01 R Forearm
+    400094: Bip01 R Hand
+    400096: Bip01 R Thigh
+    400098: Bip01 R Toe0
+    400100: Bip01 R Toe0Nub
+    400102: Bip01 R UpperArm
+    400104: Bip01 Spine
+    400106: Bip01 Spine1
+    400108: Bip01 Spine2
+    400110: Box01000
+    400112: CA01
+    400114: CA02
+    400116: CA03
+    400118: CA04
+    400120: CA05
+    400122: CA06
+    400124: CF01
+    400126: CF02
+    400128: CF03
+    400130: CF04
+    400132: CK01
+    400134: CK02
+    400136: CK03
+    400138: CK04
+    400140: CL01
+    400142: CL02
+    400144: CL03
+    400146: CL04
+    400148: CL05
+    400150: CL06
+    400152: CL07
+    400154: CL08
+    400156: CL09
+    400158: CL10
+    400160: CR01
+    400162: CR02
+    400164: CR03
+    400166: CR04
+    400168: CR05
+    400170: CR06
+    400172: CR07
+    400174: CR08
+    400176: CR09
+    400178: CR10
+    400180: Dummy01
+    400182: Dummy02
+    400184: Dummy03
+    400186: Dummy04
+    400188: Dummy05
+    400190: Dummy06
+    400192: Dummy07
+    400194: Dummy08
+    400196: Dummy09
+    400198: Dummy10
+    400200: Dummy11
+    400202: Dummy12
+    400204: Dummy13
+    400206: Dummy14
+    400208: Dummy15
+    400210: Dummy16
+    400212: Dummy17
+    400214: Dummy18
+    400216: Dummy19
+    400218: Dummy20
+    400220: Dummy21
+    400222: Dummy22
+    400224: Dummy23
+    400226: Dummy24
+    400228: Dummy25
+    400230: Dummy26
+    400232: Dummy28
+    400234: Dummy29
+    400236: 'Face '
+    400238: Face Brow
+    400240: Face EyeL
+    400242: Face EyeLD
+    400244: Face EyeLU
+    400246: Face EyeR
+    400248: Face EyeRD
+    400250: Face EyeRU
+    400252: Face MouseD
+    400254: Face MouseL
+    400256: Face MouseR
+    400258: Face MouseU
+    400260: HA01
+    400262: HA02
+    400264: HA03
+    400266: HA04
+    400268: HA05
+    400270: HA06
+    400272: HA07
+    400274: HA08
+    400276: HA09
+    400278: HA10
+    400280: HA11
+    400282: HA12
+    400284: HA13
+    400286: HA14
+    400288: HA15
+    400290: HA16
+    400292: WL01
+    400294: WR01
+    4300000: Box01000
+    4300002: a0106s
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: a0106s
+    13700002: Box01000
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 1
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

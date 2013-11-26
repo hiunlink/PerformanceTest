@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{2CFDCEC0-C884-F91B-8E34-E045ADA948B3}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_0;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;ENABLE_DUCK_TYPING</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Editor\AssetBundleBuildMenu.cs" />
+     <Compile Include="Assets\Scripts\Editor\AssetBundleBuilder.cs" />
+     <None Include="Assets\Shaders\AnisotropicSpecular.shader" />
+     <None Include="Assets\Shaders\3DTextOutlineWithoutZBuffer(Right).shader" />
+     <None Include="Assets\Shaders\ColorAdditive.shader" />
+     <None Include="Assets\Shaders\3DTextOutlineWithoutZBuffer(Left).shader" />
+     <None Include="Assets\Shaders\DragLight2.shader" />
+     <None Include="Assets\Shaders\3DTextOutline(Up).shader" />
+     <None Include="Assets\Shaders\3DTextOutline(Right).shader" />
+     <None Include="Assets\Shaders\VertexLitSpecularZ.shader" />
+     <None Include="Assets\Shaders\Self-illumin_Transparent_Cutoff_Diffuse.shader" />
+     <None Include="Assets\Shaders\ImageSpotlightEffect.shader" />
+     <None Include="Assets\Shaders\Composite.shader" />
+     <None Include="Assets\Shaders\DragLightPro.shader" />
+     <None Include="Assets\Shaders\Dissolve_TexturCoords.shader" />
+     <None Include="Assets\Shaders\DragLight3.shader" />
+     <None Include="Assets\Shaders\DLAA.shader" />
+     <None Include="Assets\Shaders\Planet.shader" />
+     <None Include="Assets\Shaders\ParticleAddSoftScale.shader" />
+     <None Include="Assets\Shaders\DoubleSideAlpha.shader" />
+     <None Include="Assets\Shaders\ImageRoundSpotlightEffect.shader" />
+     <None Include="Assets\Shaders\ReflectiveBumpedSpecular.shader" />
+     <None Include="Assets\Shaders\HeatDistort.shader" />
+     <None Include="Assets\Shaders\ParticlesAdditiveNew.shader" />
+     <None Include="Assets\Shaders\OutlinedDiffuse.shader" />
+     <None Include="Assets\Shaders\VertexLitZ.shader" />
+     <None Include="Assets\Shaders\ShaderDetectFragmentPrograms.shader" />
+     <None Include="Assets\Shaders\FXAAPreset3.shader" />
+     <None Include="Assets\Shaders\EdgeLightingSpecularHighlighted.shader" />
+     <None Include="Assets\Shaders\EdgeLightingTransparent.shader" />
+     <None Include="Assets\Shaders\ImageFadeEffect.shader" />
+     <None Include="Assets\Shaders\LinesColorOnTop.shader" />
+     <None Include="Assets\Shaders\Translucent.shader" />
+     <None Include="Assets\Shaders\EdgeLighting.shader" />
+     <None Include="Assets\Shaders\AnimatedTextureUV2.shader" />
+     <None Include="Assets\Shaders\FXAA2.shader" />
+     <None Include="Assets\Shaders\SkyBoxBlendWithFog.shader" />
+     <None Include="Assets\Resources\Shaders\OneSideAlpha.shader" />
+     <None Include="Assets\Shaders\SkyboxBlend.shader" />
+     <None Include="Assets\Shaders\AnimatedTextureUV.shader" />
+     <None Include="Assets\Shaders\AutoTransparentShader.shader" />
+     <None Include="Assets\Shaders\DramaCinemaEffect.shader" />
+     <None Include="Assets\Shaders\AutoTransparentShaderZ.shader" />
+     <None Include="Assets\Shaders\HitFlash.shader" />
+     <None Include="Assets\Shaders\Self-illumin_Transparent_Specular.shader" />
+     <None Include="Assets\Shaders\VertexLitwithZ.shader" />
+     <None Include="Assets\Shaders\CloudShader.shader" />
+     <None Include="Assets\Shaders\CharacterPortraitShader.shader" />
+     <None Include="Assets\Shaders\3DTextWithoutZBuffer.shader" />
+     <None Include="Assets\Shaders\UnlitTransparentNoFog.shader" />
+     <None Include="Assets\Shaders\ReflectiveDiffuse.shader" />
+     <None Include="Assets\Shaders\ParticleAdditiveScale.shader" />
+     <None Include="Assets\Shaders\NFAA.shader" />
+     <None Include="Assets\Shaders\ImageDyingEffect.shader" />
+     <None Include="Assets\Shaders\Self-illumin_Transparent_Diffuse.shader" />
+     <None Include="Assets\Shaders\UnlitTransparentNoFogZ.shader" />
+     <None Include="Assets\Shaders\DoubleSideAlphaSpecular.shader" />
+     <None Include="Assets\Shaders\Flowing Light.shader" />
+     <None Include="Assets\Shaders\3DTextBloodZ.shader" />
+     <None Include="Assets\Shaders\BlurConeTap.shader" />
+     <None Include="Assets\Shaders\CharacterTransparentCutout.shader" />
+     <None Include="Assets\Shaders\ProjectorAdditive.shader" />
+     <None Include="Assets\Shaders\TextureAdditive.shader" />
+     <None Include="Assets\Shaders\AnisotropicBumpSpecular.shader" />
+     <None Include="Assets\Shaders\OutlinedDiffuse2.shader" />
+     <None Include="Assets\Shaders\Self-illumin_Transparent_Cutoff_Bump_Diffuse.shader" />
+     <None Include="Assets\Shaders\EdgeLightingDoubleSided.shader" />
+     <None Include="Assets\Shaders\MapShader.shader" />
+     <None Include="Assets\Shaders\3DTextOutline(Down).shader" />
+     <None Include="Assets\Shaders\BossFlash.shader" />
+     <None Include="Assets\Shaders\VertexColored.shader" />
+     <None Include="Assets\Shaders\HeatDistortMesh.shader" />
+     <None Include="Assets\Shaders\OutlineHeatDistortMesh.shader" />
+     <None Include="Assets\Shaders\FXAAPreset2.shader" />
+     <None Include="Assets\Shaders\ParticleAdditiveZ.shader" />
+     <None Include="Assets\Shaders\Self-illumin_Transparent_Cutoff_Bump_Specular.shader" />
+     <None Include="Assets\Shaders\Stencil.shader" />
+     <None Include="Assets\Shaders\3DTextOutlineWithoutZBuffer(Up).shader" />
+     <None Include="Assets\Shaders\Self-illumin_Transparent_Cutoff_Specular.shader" />
+     <None Include="Assets\Shaders\EdgeLightingBumped.shader" />
+     <None Include="Assets\Shaders\SSAA.shader" />
+     <None Include="Assets\Shaders\DoubleSide.shader" />
+     <None Include="Assets\Shaders\EdgeLightingSpecular.shader" />
+     <None Include="Assets\Shaders\DragLight4.shader" />
+     <None Include="Assets\Shaders\3DTextOutlineWithoutZBuffer(Down).shader" />
+     <None Include="Assets\Shaders\HitFlash2.shader" />
+     <None Include="Assets\Shaders\LinesColor.shader" />
+     <None Include="Assets\Shaders\AnimatedTextureUVPro.shader" />
+     <None Include="Assets\Shaders\Sprite Cutout.shader" />
+     <None Include="Assets\Shaders\DragLight.shader" />
+     <None Include="Assets\Shaders\ParticleAlphaBlendNew.shader" />
+     <None Include="Assets\Shaders\DragLight5.shader" />
+     <None Include="Assets\Shaders\UnlitTransparentColored.shader" />
+     <None Include="Assets\Shaders\TextureAnimation.shader" />
+     <None Include="Assets\Shaders\Liquid.shader" />
+     <None Include="Assets\Shaders\3DTextOutline(Left).shader" />
+     <None Include="Assets\Shaders\3DText.shader" />
+     <None Include="Assets\Shaders\3DTextBlood.shader" />
+     <None Include="Assets\Shaders\ParticleAdditiveBack.shader" />
+     <None Include="Assets\Shaders\TextClippingShader.shader" />
+ <Reference Include="\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs">
+ <HintPath>\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions">
+ <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions">
+ <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="\Applications\Unity\Unity.app\Contents\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions">
+ <HintPath>\Applications\Unity\Unity.app\Contents\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{691A04EF-488E-0C67-98F7-03A6033E25FD}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
