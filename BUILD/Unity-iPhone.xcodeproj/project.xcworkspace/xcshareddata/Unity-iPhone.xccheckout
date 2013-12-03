@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1E4661BC-30A1-4767-AA72-88C449586CBB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Unity-iPhone</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>49334CBC-EF7A-4119-92CB-43993B39B214</key>
+		<string>https://github.com/hiunlink/PerformanceTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BUILD/Unity-iPhone.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>49334CBC-EF7A-4119-92CB-43993B39B214</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hiunlink/PerformanceTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>49334CBC-EF7A-4119-92CB-43993B39B214</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>49334CBC-EF7A-4119-92CB-43993B39B214</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PerformanceTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>

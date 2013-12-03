@@ -1,16 +1,17 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ResourceLoader/ResourceManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Node/ModelNode.cs">
     <Files>
-      <File FileName="Assets/Scripts/EventManager.cs" Line="206" Column="2" />
-      <File FileName="Assets/Scripts/Editor/AssetBundleBuilder.cs" Line="77" Column="1" />
-      <File FileName="Assets/Scripts/CoroutineManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Process/BasicActions.cs" Line="5" Column="1" />
-      <File FileName="Assets/Scripts/Process/ActionStates.cs" Line="5" Column="1" />
-      <File FileName="Assets/Scripts/Node/ModelNode.cs" Line="108" Column="1" />
-      <File FileName="Assets/Scripts/ResourceLoader/ResourceManager.cs" Line="11" Column="36" />
-      <File FileName="Assets/Scripts/ResourceLoader/AssetLoader.cs" Line="25" Column="46" />
-      <File FileName="Assets/Scripts/ResourceLoader/AssetBundleLoader.cs" Line="33" Column="35" />
+      <File FileName="Assets/Scripts/Node/ModelNode.cs" Line="50" Column="54" />
+      <File FileName="Assets/Scripts/ResourceLoader/ResourceManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ResourceLoader/AssetLoader.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ResourceLoader/AssetBundleLoader.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Editor/AssetBundleBuilder.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PerformanceTest.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ResourceLoader/ResourceLoader.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ResourceLoader/IResourceLoader.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Node/LoiteringModelNode.cs" Line="7" Column="42" />
+      <File FileName="Assets/Scripts/Node/BaseNode.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

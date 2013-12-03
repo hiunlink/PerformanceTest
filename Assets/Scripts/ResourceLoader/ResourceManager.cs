@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class ResourceManager : IResourceLoader
 {
 	IResourceLoader _resourceLoader;
-	Dictionary<string, Object> _cachedResources = new Dictionary<string, Object>();
+	Dictionary<string, System.Object> _cachedResources = new Dictionary<string, System.Object>();
 	public ResourceManager()
 	{
 		_resourceLoader = new AssetLoader();
@@ -20,7 +20,7 @@ public class ResourceManager : IResourceLoader
 			responseHandler(_cachedResources[resourcePath], null, resourcePath);
 	}
 
-	void AddToCachedPool(Object response, string error, string resourceIdentify)
+	void AddToCachedPool(System.Object response, string error, string resourceIdentify)
 	{
 		if (!_cachedResources.ContainsKey(resourceIdentify))
 			_cachedResources.Add(resourceIdentify, response);

@@ -1,0 +1,18 @@
+Get started quickly with this low poly Medieval Knight. 
+He is rigged and animated.Textures are hand painted and in PSD format. Available in 4 colours. 
+853 tris. Suitable for Mobile games.  
+
+Animation frames
+0-10 >T pose
+11 -50 > Idle
+51 - 70 > Attack, Raise sword and slash from top to down
+71 - 80 > idle to defend
+81 - 100 > defend (loop)
+101 - 110 > defend to idle
+111 - 125 > hit
+131 - 165 > die
+171 - 190 > jump 
+196 - 235 > walk (loop)
+241 - 260 > run (loop)
+271 - 295 > Attack 02, Slash from left to right
+301 - 330 > Attack 03, Double slash combo. Slash from right to left and then left to right. 

@@ -5,7 +5,11 @@ using System.Collections;
 
 public class AssetBundleBuilder
 {
+#if UNITY_ANDROID
 	public static BuildTarget TargetPlatform = BuildTarget.Android;
+#elif UNITY_IPHONE
+	public static BuildTarget TargetPlatform = BuildTarget.iPhone;
+#endif
 	
 	public static void BundleFBX(Object fbxObject, string outputDirPath)
 	{
@@ -34,14 +38,14 @@ public class AssetBundleBuilder
 
 	public static void BundleAnimationClips(Object rootObject, string outputDirPath)
 	{
-		if (!rootObject is GameObject)
+		if (!(rootObject is GameObject))
 			return;
 
 		GameObject rootGameObject = rootObject as GameObject;
 		Animation animationComponent = rootGameObject.GetComponent<Animation>();
 
 		CreateDir(outputDirPath);
-		string outputPath;
+
 		if (animationComponent != null)
 		{
 			foreach (AnimationState animationState in animationComponent)
@@ -86,8 +90,8 @@ public class AssetBundleBuilder
 	
 	static Object GetPrefab(GameObject go, string name)
 	{
-		Object tempPrefab = EditorUtility.CreateEmptyPrefab("Assets/" + name + ".prefab");
-		tempPrefab = EditorUtility.ReplacePrefab(go, tempPrefab);
+		Object tempPrefab = PrefabUtility.CreateEmptyPrefab("Assets/" + name + ".prefab");
+		tempPrefab = PrefabUtility.ReplacePrefab(go, tempPrefab);
 		Object.DestroyImmediate(go);
 		return tempPrefab;
 	}
